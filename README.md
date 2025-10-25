@@ -1,1 +1,1 @@
-# Calhack-Project
+# Calhack Project
