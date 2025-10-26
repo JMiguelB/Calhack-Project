@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/d24881fd-e715-44b4-b20c-bb7564625f61>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 7a45893e-0599-49d9-a0c4-331d6773f538
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 7a45893e-0599-49d9-a0c4-331d6773f538
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7e5904f0-9d4d-4472-a5ea-8dbdf4c0bf57
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7e5904f0-9d4d-4472-a5ea-8dbdf4c0bf57>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0902e164-2049-4dd4-b489-3b1932d7557a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    apiKey: false
+    enableSubtitles: false
+    language: false
+    microphoneRecorder: false
+    statusText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - microphoneRecorder: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      apiKey: ""
+      language: en
+      enableSubtitles: true
+      statusText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType microphoneRecorder
+    - '// @input string apiKey {"hint":"Your OpenAI API key for subtitle generation"}'
+    - "// @input string language = \"en\" {\"hint\":\"Language for subtitle generation (e.g., 'en', 'es', 'fr')\"}"
+    - '// @input bool enableSubtitles = true {"hint":"Enable subtitle generation"}'
+    - // @input Component.Text statusText

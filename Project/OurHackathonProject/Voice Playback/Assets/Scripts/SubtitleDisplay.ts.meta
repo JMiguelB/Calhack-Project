@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/93276c2a-57d0-4d0b-b76d-525f42fb3be0>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 16279fb6-da37-4e9e-88cc-5c8e28b2821f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 16279fb6-da37-4e9e-88cc-5c8e28b2821f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 5a9b96ff-f21b-4e8e-9060-e2a9a43f89a2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/5a9b96ff-f21b-4e8e-9060-e2a9a43f89a2>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d2be3e68-af7b-4134-a82b-bbd8f269b2c7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableWordHighlight: false
+    fontSize: false
+    maxLines: false
+    subtitleBackground: false
+    subtitleText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - subtitleText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      subtitleBackground: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      maxLines: !<float> 2.000000
+      fontSize: !<float> 24.000000
+      enableWordHighlight: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.Text subtitleText
+    - // @input Component.Image subtitleBackground
+    - '// @input float maxLines = 2 {"hint":"Maximum number of lines to display at once"}'
+    - '// @input float fontSize = 24 {"hint":"Font size for subtitle text"}'
+    - '// @input bool enableWordHighlight {"hint":"Show subtitles with word highlighting"}'
